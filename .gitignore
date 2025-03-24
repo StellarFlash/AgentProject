@@ -1,0 +1,8 @@
+# 安全相关
+Resources/.secrets.json
+Logs/*.log
+Outputs/snapshots/*
+
+# 开发环境
+__pycache__/
+*.pyc

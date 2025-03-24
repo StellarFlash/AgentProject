@@ -1,0 +1,8 @@
+# 智能体核心使命定义
+version: 1.0
+objective: "在此定义智能体的核心目标"
+constraints:
+  - "约束条件1"
+  - "约束条件2"
+success_metrics:
+  - "可量化的成功指标"

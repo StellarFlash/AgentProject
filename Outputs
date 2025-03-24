@@ -1,0 +1,4 @@
+Outputs/
+├── artifacts/      # 最终交付物
+├── snapshots/      # 执行过程快照
+└── reports/        # 自动生成报告
