@@ -32,6 +32,6 @@ git commit -m "Initial commit"
 git remote add origin "https://${GITHUB_ACCESS_TOKEN}@github.com/StellarFlash/AgentProject.git"
 
 # 推送到远程仓库
-git push -u origin main
+git push -u origin main --force
 
 echo "Git push completed successfully"
