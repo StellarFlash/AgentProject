@@ -1,8 +1,9 @@
-# 智能体核心使命定义
-version: 1.0
-objective: "在此定义智能体的核心目标"
+objective: "生成机房设备端口面板的ASCII可视化图"
 constraints:
-  - "约束条件1"
-  - "约束条件2"
+  - "使用ASCII字符表示端口状态（占用/空闲）"
+  - "复用server_room_models.py中的设备类定义"
+  - "可视化结果保存到Outputs目录"
 success_metrics:
-  - "可量化的成功指标"
+  - "成功生成端口面板ASCII图"
+  - "正确显示端口占用状态"
+  - "输出文件保存到Outputs/artifacts/"
